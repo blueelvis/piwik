@@ -120,8 +120,6 @@ class Adapter
         return $adapters;
     }
 
-<<<<<<< HEAD
-=======
     /**
      * Checks if the available adapters are recommended by Piwik or not.
      * @param string $adapterName
@@ -131,5 +129,4 @@ class Adapter
     {
         return strtolower($adapterName) === 'pdo/mysql';
     }
->>>>>>> 5f91bfbde51a9567b468d53b9263a093cf318c64
 }
